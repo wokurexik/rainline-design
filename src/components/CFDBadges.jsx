@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function CFDBadges() {
   return (
     <div className='App'>
-      <div className="badges-tittle">Trade all with CFD</div>
+      <div className="badges-tittle">Trade all with <span>CFD</span></div>
         <div className="badges">
           <div className="item">
             <h2>Forex</h2>

@@ -32,10 +32,10 @@ function MobileApp() {
                 </Carousel.Item>
             </Carousel>
             <div className="carousel-text">
-                <h1 >Download our <br /> <span>mobile</span> or <span>web</span>  application</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-                 Officia voluptatem dolores sint asperiores? Magni quisquam quibusdam <br />
-                  voluptatum enim, provident quidem quos <br /> corrupti tempore sequi iusto, incidunt cum quia, cupiditate magnam?</p>
+                <h1 >Download our <span>mobile</span> or <span>web</span>  application</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                 Officia voluptatem dolores sint asperiores? Magni quisquam quibusdam 
+                  voluptatum enim, provident quidem quos  corrupti tempore sequi iusto, incidunt cum quia, cupiditate magnam?</p>
                   <div className="download">
                     <Link className='download-button' >Download</Link>
                   </div>

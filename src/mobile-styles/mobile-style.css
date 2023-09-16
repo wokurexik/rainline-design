@@ -8,7 +8,7 @@
       }
       
       body {
-        overflow-x: auto;
+        overflow-x:hidden;
         background: rgb(0,0,0);
         background: radial-gradient(circle at 10% 20%, rgb(15, 15, 15) 0%, rgb(44, 44, 44) 90.2%);
         font-weight: 700;
@@ -266,41 +266,57 @@
       
       
       .carousel-mobile  {
-        width: 350px;
+        width: 250px;
+        justify-content: center;
+        margin: 0 auto;
+        grid-row: 2;
       }
       
       .carousel-sec {
-        display: flex;
+        display: grid;
         position: relative;
         justify-content: center;
-        gap: 200px;
+        gap: 0px;
         margin-top: 200px;
       }
+
       
       .line {
-        width: 105%;
-        height: 200px;
+        width: 700px;
+        height: 300px;
         background-color: var(--c);
         position: absolute;
-        bottom: 50%;
-        rotate: 5deg;
+        bottom: 42%;
+        left: 20px;
+        display: none;
+        right: 50px;
+        rotate: 10deg;
         z-index: -1;
       }
+
+ 
       
       .carousel-text > h1{
         color: var(--c);
-        font-size: 50px;
+        padding: 0 30px;
+        font-size: 30px;
         font-weight: 900;
         margin-top: 20px;
       }
+
+      .carousel-text {
+        width: 400px;
+      }
       
       .carousel-text > p{
-        color:#1a1e24;
-        margin-top: 70px;
-        font-size: 20px;
-        padding: 10px;
+        color: var(--g);
+        margin-top: 50px;
+        font-size: 15px;
+        padding: 0 20px;
+        width: 400px;
         font-weight: 700;
-        margin-bottom: 100px;
+        /* height: 200px; */
+        margin-bottom: 50px;
       }
       
       @keyframes example {
@@ -347,6 +363,8 @@
       .download {
         display:flex;
         gap: 100px;
+        justify-content:center;
+        margin-bottom: 50px;
       
       }
       
@@ -370,6 +388,7 @@
         margin-top: 200px;
       }
       
+
       
       .c-item{
         /* width: 100vh !important; */
@@ -387,10 +406,89 @@
         font-weight: 900;
       }
       
-      .footer {
-        height: 300px;
+      :root {
+        --g: grey;
+        --c: #f5cb42;
+        --color: #eee;
+        --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    .badges-tittle {
         margin-top: 200px;
-        display: flex;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size: 30px;
+        font-weight: 900;
+        color: var(--c);
+    
+    }
+      
+    .badges {
+        display: grid;
+        justify-content: center;
+        height: auto;
+        gap: 50px;
+    }
+    
+    .badges > .item {
+        width: 300px;
+        height: 150px;
+        border: 1px solid #1b1b1b ;
+        border-radius: 40px;
+        background: linear-gradient(45deg,#494949, #1a1a1a);
+        display: grid;
+        gap: 0px;
+        align-items: center;
+        padding: 10px 0;
+        transition: all ease 0.7s;
+    }
+    
+    .badges > .item:hover {
+        background: linear-gradient(45deg,#1a1a1a, #494949);
+        border: 3px solid rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .badges > .item:hover p{
+        color: #eee;
+        margin: 0;
+    }
+    
+    
+    
+    .badges > .item > h2 {
+        color: var(--c);
+        font-size: 40px;
+        margin: 0;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .badges-tittle  > span{
+      width: 100px;
+        height: 100px;
+        color:var(--c);
+        animation-name: example ;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    .badges > .item > P {
+        font-size: 15px;
+        padding: 0 10px;
+        margin: 0;
+        text-align: center;
+        font-weight: 400;
+        color: var(--g);
+        transition: all ease .5s;
+    }
+    
+    
+
+      .footer {
+        height: auto;
+        margin-top: 200px;
+        display: grid;
         padding: 30px;
         justify-content: space-around;
         /* background-color:black; */
@@ -443,6 +541,7 @@
       
       .f-logo > h2 {
         color:var(--c);
+        text-align: center;
         font-size: 50px;
         font-weight: 700;
       }
@@ -459,6 +558,7 @@
       .f-text > h2 {
         color: var(--c);
         font-size: 50px;
+        display: none;
         font-weight: 900;
       }
 

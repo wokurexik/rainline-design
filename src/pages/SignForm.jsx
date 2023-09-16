@@ -3,7 +3,7 @@ import { SignUp} from "../utilities/utils"
 import { BackButton } from '../components/BackButton'
 import { Link } from 'react-router-dom'
 import userData from '../data/user_data.json'
-
+import  "../mobile-styles/mobile-login.css"
 
 function SignForm() {
 
