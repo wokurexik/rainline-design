@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container > h2 {
+text-align: center;
+font-weight: 700;
+color: #f5cb42;
+font-size: 60px;
+}
+
+.login-form {
+margin-top: 50px;
+display: grid;
+height: 200px;
+justify-content:  center ;
+}
+
+placeholder {
+    color: aliceblue;
+}
+
+.login-form > button:disabled {
+    background-color: transparent;
+}
+
+.login-form > button:disabled:hover {
+    background-color: transparent;
+    color: rgb(46, 46, 46);;
+}
+
+.login-form > p {
+font-size: 15px;
+color: gray;
+margin-top: 20px;
+}
+.login-form > p > a {
+font-size: 15px;
+color: #f5cb42;
+}
+
+.login-form > input {
+ color: white   ;
+}
+
+::placeholder{
+font-size: 15px;
+color: gray;
+}
+
+::placeholder-shown{
+font-size: 15px;
+color: gray;
+}
+
+.login-form > input, textarea, button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 500px ;
+    background-color: transparent;
+    border: 2px solid #f5cb42;
+}
+
+.login-form > button {
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #f5cb42;
+    color: rgb(46, 46, 46);
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid #f5cb42;
+}
+
+.login-form > button:hover {
+    background-color: transparent ;
+    color: #f5cb42;
+    cursor: pointer;
+}
+
+.errorMessage {
+    margin-bottom: 300px;
+    margin-top: 30px;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.goback-btn {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    color: #f5cb42;
+    border-radius: 10px;
+}
+
+.goback-btn:hover {
+    background-color: #f5cb42;
+    color: black
+}
+
+.goback-btn:focus {
+    background-color: #f5cb42;
+    color: black
+}
+
+.hint {
+    margin-top: 200px;
+}
+
+.hint > li {
+    list-style: none;
+    color: grey;
+}
+.hint > li > span {
+    color: transparent;
+}
+
+.hint > h3 {
+    color: #f5cb42;
+    font-weight: 700;
+}
+
+.hint > li > span:hover {
+    color: white;
+    cursor:help;
+}

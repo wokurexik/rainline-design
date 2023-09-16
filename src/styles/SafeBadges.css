@@ -1,0 +1,68 @@
+:root {
+    --g: grey;
+    --c: #f5cb42;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.badges-tittle {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 55px;
+    font-weight: 900;
+    color: var(--c);
+
+}
+  
+.badges {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 50px;
+}
+
+.badges > .item {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #1b1b1b ;
+    border-radius: 40px;
+    background: linear-gradient(45deg,#494949, #1a1a1a);
+    display: grid;
+    gap: 0px;
+    align-items: center;
+    padding: 100px 0;
+    transition: all ease 0.7s;
+}
+
+.badges > .item:hover {
+    background: linear-gradient(45deg,#1a1a1a, #494949);
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.badges > .item:hover p{
+    color: #eee;
+    margin: 0;
+}
+
+
+
+.badges > .item > h2 {
+    color: var(--c);
+    font-size: 40px;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+}
+
+.badges > .item > P {
+    font-size: 15px;
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    color: var(--g);
+    transition: all ease .5s;
+}
+

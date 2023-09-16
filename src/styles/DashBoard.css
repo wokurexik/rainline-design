@@ -1,0 +1,38 @@
+.dashboard {
+}
+
+.dash-text{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px ;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.dash-text > h1{
+    color: var(--c);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.dash-text > h2{
+    color: var(--c);
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+.loading {
+    font-weight: bold;
+    display:inline-block;
+    font-family: monospace;
+    font-size: 30px;
+    clip-path: inset(0 15ch 0 0);
+    animation: l 1s steps(15) infinite;
+  }
+  
+  @keyframes l {
+    to {
+      clip-path: inset(0 -1ch 0 0)
+    }
+  }
