@@ -2,6 +2,7 @@ import './App.css';
 import './styles/LoginForm.css';
 import './styles/SafeBadges.css'
 import './mobile-styles/mobile-style.css'
+import './tablet-styles/tablet-style.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';

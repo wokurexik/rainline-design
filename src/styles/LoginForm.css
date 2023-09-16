@@ -38,16 +38,17 @@ placeholder {
 }
 
 .login-form > p {
-font-size: 15px;
-color: gray;
-margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
 }
 .login-form > p > a {
-font-size: 15px;
-color: #f5cb42;
+    font-size: 15px;
+    color: #f5cb42;
 }
 
 .login-form > input {
+    /* width: 800px !important; */
  color: white   ;
 }
 

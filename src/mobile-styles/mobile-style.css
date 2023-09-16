@@ -273,6 +273,7 @@
       }
       
       .carousel-sec {
+        overflow: hidden;
         display: grid;
         position: relative;
         justify-content: center;
@@ -312,7 +313,7 @@
         color: var(--g);
         margin-top: 50px;
         font-size: 15px;
-        padding: 0 20px;
+        padding: 0 40px;
         width: 400px;
         font-weight: 700;
         /* height: 200px; */
@@ -406,12 +407,6 @@
         font-weight: 900;
       }
       
-      :root {
-        --g: grey;
-        --c: #f5cb42;
-        --color: #eee;
-        --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
-    }
     
     .badges-tittle {
         margin-top: 200px;
@@ -432,7 +427,7 @@
     
     .badges > .item {
         width: 300px;
-        height: 150px;
+        height: 200px;
         border: 1px solid #1b1b1b ;
         border-radius: 40px;
         background: linear-gradient(45deg,#494949, #1a1a1a);

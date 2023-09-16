@@ -4,6 +4,7 @@ import { BackButton } from '../components/BackButton'
 import { Link } from 'react-router-dom'
 import userData from '../data/user_data.json'
 import  "../mobile-styles/mobile-login.css"
+import Footer from '../components/Footer'
 
 function SignForm() {
 
@@ -44,6 +45,8 @@ function SignForm() {
             </form>
             <div className="errorMessage">{error}</div>
             </div>
+
+            <Footer/>
         </div>
   )
 }

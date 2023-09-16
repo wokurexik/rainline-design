@@ -3,7 +3,7 @@ import {login} from "../utilities/utils"
 import { BackButton } from '../components/BackButton'
 import { Link } from 'react-router-dom'
 import userData from '../data/user_data.json'
-
+import Footer from '../components/Footer'
 
 function LoginForm() {
 
@@ -47,6 +47,8 @@ function LoginForm() {
             </form>
             <div className="errorMessage">{error}</div>
             </div>
+
+            <Footer/>
         </div>
   )
 }
