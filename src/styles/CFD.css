@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: var(--c);
+    font-weight: 900;
+    font-size: 50px;
+    width: 700px;
+    text-align: center;
+    /* margin-left: 200px; */
+    margin-top: 200px;
+}
+
+.title > span {
+    animation-name: example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    0%   {color:#eee;}
+    50% {color:var(--c);}
+    100%   {color:#eee;}
+}
+  
+.article {
+    margin-top: 200px;
+    margin-left: 200px;
+    display: grid;
+    /* justify-content: center; */
+    gap: 100px;
+}
+
+h3 {
+    color: var(--c);
+    margin: 0;
+    font-weight: 900;
+    font-size: 35px;
+    /* text-decoration: underline; */
+    text-decoration-color:white ;
+    display: flex;
+    gap: 30px;
+    width: 700px;
+}
+
+h3 > span {
+    color: white;
+    /* text-decoration: none !important; */
+    background-color: var(--c);
+    padding: 5px 15px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+p {
+    
+    color: var(--g);
+    font-weight: 400;
+    font-size: 20px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.article-two {
+    /* margin-left: 200px; */
+}
+
+.article-three-one {
+    margin-left: 100px;
+}
+.article-three-one > h3 {
+    font-size: 30px;
+}
+.article-three-one > p {
+    font-size: 18px;
+}
+
+.article-three-two {
+    margin-left: 100px;
+}
+.article-three-two > h3 {
+    font-size: 30px;
+}
+.article-three-two > p {
+    font-size: 18px;
+}
+
+.article-three-three {
+    margin-left: 100px;
+}
+.article-three-three > h3{
+    font-size: 30px;
+}
+.article-three-three > p {
+    font-size: 18px;
+}

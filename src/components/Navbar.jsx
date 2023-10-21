@@ -29,9 +29,9 @@ export function Navbar() {
   return (
     <div className='App'>
         <nav>
-              <h2>RAIN<span>LINE</span></h2>
+             <h2><Link to={"/"}>RAIN<span>LINE</span></Link></h2>
               <div className="nav-links">
-                  <Link>CFD</Link>
+                  <Link to="/cfd">CFD</Link>
                   <Link>Invest</Link>
                   <DropdownButton id="dropdown-basic-button" title="Crypto">
                   <Dropdown.Item href="#">Stocks</Dropdown.Item>
@@ -58,7 +58,7 @@ export function Navbar() {
               </nav>
               <div className="nav-menu">
                     <div className={menu_class}>
-                          <Link>CFD</Link>
+                          <Link to={"/cfd"}>CFD</Link>
                         <Link>Invest</Link>
                         {/* <DropdownButton id="dropdown-basic-button" title="Crypto">
                         <Dropdown.Item href="#">Stocks</Dropdown.Item>

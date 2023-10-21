@@ -28,7 +28,7 @@
     font-family: monospace;
     font-size: 30px;
     clip-path: inset(0 15ch 0 0);
-    animation: l 1s steps(15) infinite;
+    animation: l 2s steps(17) infinite;
   }
   
   @keyframes l {

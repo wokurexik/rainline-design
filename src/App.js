@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import LoginForm from './pages/LoginForm';
 import SignForm from './pages/SignForm';
 import Dashboard from './pages/Dashboard';
+import CFD from './pages/CFD';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
   return (
     <div className="App">
         <Routes>
+          {/* <Route path='/' element={<Home/>}/> */}
           <Route path='/' element={<Home/>}/>
+          <Route path='/cfd' element={<CFD/>}/>
           <Route path='/login' element={<LoginForm/>}/>
           <Route path='/sign-up' element={<SignForm/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>

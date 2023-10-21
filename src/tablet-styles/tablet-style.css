@@ -29,14 +29,14 @@
         /* flex-direction: row-reverse; */
         margin-top: 40px;
        flex-wrap: wrap;
-       
-        justify-content: center;
-        margin-left: 10px;
-        gap: 50px;
-        margin-right: 10px;
+       justify-content: center;
+       margin-left: 10px;
+       gap: 50px;
+       margin-right: 10px;
       }
       
-      nav > h2 {
+      nav > h2 > a {
+        text-decoration: none;
         color: var(--c);
         font-weight: 900;
         margin: auto 0;
@@ -44,7 +44,7 @@
         font-size: 50px;
       }
 
-      nav > h2 >span{
+      nav > h2  > a >span{
         color: var(--g); 
         font-weight: 900;
         font-size: 50px;
@@ -821,15 +821,16 @@
         margin-right: 10px;
       }
       
-      nav > h2 {
+      nav >  h2 > a {
         color: var(--c);
+        text-decoration: none;
         font-weight: 900;
         margin: auto 0;
         text-align: center;
         font-size: 50px;
       }
 
-      nav > h2 >span{
+      nav > h2 > a >span{
         color: var(--g); 
         font-weight: 900;
         font-size: 50px;
@@ -872,7 +873,7 @@
         text-decoration: none;
         list-style: none;
         margin: auto 0;
-        font-size: 20px;
+        font-size: 30px;
         height: auto;
         position: relative;
       }
@@ -928,7 +929,7 @@
         width: auto !important;
         background-color: var(--c);
         border: none;
-        font-size: 20px;
+        font-size: 25px;
         color: black;
         font-weight: 400;
       }
@@ -937,7 +938,7 @@
         width: auto !important;
         background-color: var(--c);
         border: none;
-        font-size: 20px;
+        font-size: 25px;
         color: black;
         font-weight: 400;
       }

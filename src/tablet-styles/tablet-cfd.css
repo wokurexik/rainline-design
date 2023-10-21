@@ -1,0 +1,115 @@
+
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .title-div {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .title {
+        color: var(--c);
+        font-weight: 900;
+        font-size: 40px;
+        width: 700px;
+        text-align: left;
+        padding: 0 20px;
+        /* margin-left: 200px; */
+        margin-top: 200px;
+    }
+    
+    .title > span {
+        animation-name: example ;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes example {
+        0%   {color:#eee;}
+        50% {color:var(--c);}
+        100%   {color:#eee;}
+    }
+      
+    .article {
+        margin-top: 200px;
+        margin-left: 0px;
+        display: grid;
+        /* justify-content: center; */
+        gap: 100px;
+    }
+    
+    h3 {
+        color: var(--c);
+        margin: 0;
+        font-weight: 900;
+        padding: 0 40px;
+        font-size: 30px;
+        /* text-decoration: underline; */
+        text-decoration-color:white ;
+        display: flex;
+        gap: 30px;
+        width: auto;
+    }
+    
+    h3 > span {
+        color: white;
+        /* text-decoration: none !important; */
+        background-color: var(--c);
+        padding: 5px 15px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    
+    p {
+        padding: 0 40px;
+        color: var(--g);
+        font-weight: 400;
+        font-size: 20px;
+        width: auto;
+        margin-top: 20px;
+    }
+    
+    .article-two {
+        /* margin-left: 200px; */
+    }
+    
+    .article-three-one {
+        margin-left: 00px;
+    }
+    .article-three-one > h3 {
+        font-size: 30px;
+        /* margin: auto 0; */
+    }
+    .article-three-one > p {
+        font-size: 20px;
+        /* font-size: 18px; */
+    }
+    
+    .article-three-two {
+        margin-left: 00px;
+    }
+    .article-three-two > h3 {
+        font-size: 30px;
+    }
+    .article-three-two > p {
+        font-size: 20px;
+    }
+    
+    .article-three-three {
+        margin-left: 00px;
+    }
+    .article-three-three > h3{
+        font-size: 30px;
+    }
+    .article-three-three > p {
+        font-size: 15px;
+    }
+    
+    }
